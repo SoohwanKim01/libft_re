@@ -6,7 +6,7 @@
 #    By: sookim <sookim@student.42.kr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/30 15:53:49 by sookim            #+#    #+#              #
-#    Updated: 2020/04/30 16:20:32 by sookim           ###   ########.fr        #
+#    Updated: 2020/04/30 16:57:51 by sookim           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,5 +66,5 @@ clean :
 
 fclean : clean
 		$(RM) $(NAME)
-re : 
-	fclean all
+
+re : fclean all
